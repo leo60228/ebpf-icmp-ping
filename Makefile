@@ -1,9 +1,9 @@
-DEVICE=eth0
+DEVICE=ens5
 
 help:
 	@echo "A ICMP ping-pong response handled by eBPF"
 	@echo
-	@echo "Usage: make DEVICE=eth0 [command]"
+	@echo "Usage: make DEVICE=ens5 [command]"
 	@echo
 	@echo "Remember to set the correct network device to use: DEVICE=<your device>"
 	@echo
